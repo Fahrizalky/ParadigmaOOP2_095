@@ -3,12 +3,12 @@ using namespace std;
 
 class baseClass {
 public:
-	virtual void perkenalan() {
+	virtual void perkenalan()  {
 		cout << "Hallo saya Function dari base Class";
 	}
 };
 
-class derivedClass : public baseClass {
+class derivedClass: public baseClass {
 public:
 	void perkenalan() {
 		cout << "Hallo saya Function dari derived Class";
