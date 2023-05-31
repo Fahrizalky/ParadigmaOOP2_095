@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7c781b0f-529c-4ca3-bcd8-7f7cb661f02d}</ProjectGuid>
-    <RootNamespace>problemMultiWaris</RootNamespace>
+    <ProjectGuid>{3b6b2d31-0fab-4c6e-8735-e33681b5d017}</ProjectGuid>
+    <RootNamespace>solveMultiWaris</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>programMultiWaris</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="problemMultiWaris.cpp" />
+    <ClCompile Include="solveMultiWaris.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
