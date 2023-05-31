@@ -45,3 +45,10 @@ public:
 		return "Halo, nama saya " + nama + " dengan jenis kelamin " + jenisKelamin + " dari sekolah " + sekolah + "\n\n";
 	}
 };
+
+
+int main() {
+	pelajar andi("andi laksono", "Laki-laki", "belajarcpp");
+	cout << andi.perkenalan();
+	return 0;
+}
